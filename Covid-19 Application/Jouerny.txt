@@ -1,0 +1,14 @@
+Client:
+I had previous knowledge using ReactJS from previous project that I build. 
+I used react-spinners to deploy a simple loader while loading data from the database.
+
+Server:
+To build a rest API server on Django I watched tutorials on Youtube to learn the basics of Django rest framework.
+Also used Django documentation to explore about more complex usings such as writing queries to the database.
+Link:
+
+https://www.youtube.com/watch?v=mlr9BF4JomE
+I watched tutorial on Youtube to connect postgresql database to Django server.
+Link:
+
+https://www.youtube.com/watch?v=NGvMRZL-Duk

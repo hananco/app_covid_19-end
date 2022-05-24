@@ -1,0 +1,20 @@
+.selectContainer {
+  display: flex;
+  flex-direction: column;
+}
+select {
+  padding: 8px;
+  border: none;
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+option {
+  padding: 8px;
+}
+.selectContainer label {
+  font-size: 12px;
+  padding-bottom: 5px;
+}

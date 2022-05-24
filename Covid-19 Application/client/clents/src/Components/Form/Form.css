@@ -1,0 +1,94 @@
+h3 {
+  left: 1px;
+  top: 1px;
+}
+
+.tableButton {
+  /* width: 90%; */
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-weight: 400;
+}
+
+.formHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.isInfectedContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.isInfectedContainer input {
+  cursor: pointer;
+}
+
+.formInputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* box-shadow: 0 0 10px rgb(141, 138, 138); */
+  gap: 15px;
+}
+.registerForm {
+  padding: 35px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 25px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.submitButton {
+  width: 90%;
+  margin-top: 15px;
+  padding: 8px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-weight: 400;
+}
+
+.submitButton:hover {
+  background-color: #000;
+  color: #fff;
+}
+.errorMessage {
+  font-size: 12px;
+  text-align: center;
+  color: #dc143c;
+}
+
+@media screen and (max-width: 960px) {
+  h1 {
+    font-size: 30px;
+  }
+  .registerForm {
+    padding: 5px;
+    width: 80%;
+  }
+  .formInputs {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+  .submitButton {
+    width: 65%;
+  }
+}
